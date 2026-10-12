@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,246 +7,152 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NAVBAR -->
-    <header class="header">
-        <nav class="navbar container">
-            <a href="#home" class="logo">Bright<span>.</span></a>
-
-            <div class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <a href="#contact" class="btn nav-btn">Let's Talk</a>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2>Bright<span>.</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <!-- HERO SECTION -->
-        <section class="hero section" id="home">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <p class="eyebrow">WELCOME TO BRIGHT</p>
-                    <h1>We Create Digital Experiences That <span>Inspire.</span></h1>
-                    <p>
-                        We help businesses grow with creative design,
-                        modern websites and powerful digital solutions.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn">Explore Projects</a>
-                        <a href="#about" class="btn btn-outline">Learn More</a>
-                    </div>
-                </div>
-                <div class="hero-image floating-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=80"
-                        alt="Modern agency workspace">
-                    <span class="badge badge-top">✨ Creative Agency</span>
-                    <span class="badge badge-bottom">✓ Quality Design</span>
-                </div>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>We Create Beautiful Websites</h1>
+                <p>We help businesses grow with creative design
+                and modern web solutions.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80"
+                 alt="Creative office">
+        </section>
+        <!-- About -->
+        <section class="section" id="about">
+            <h2>About Us</h2>
+            <p>We are a creative team passionate about web design,
+            development and digital experiences.</p>
+        </section>
+        <!-- Services -->
+        <section class="section light" id="services">
+            <h2>Our Services</h2>
+            <div class="cards">
+                <article class="card">
+                    <h3>Web Design</h3>
+                    <p>We create attractive website designs.</p>
+                </article>
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <p>We build responsive websites for businesses.</p>
+                </article>
+                <article class="card">
+                    <h3>Graphic Design</h3>
+                    <p>We design logos and social media posts.</p>
+                </article>
             </div>
         </section>
-        <!-- ABOUT SECTION -->
-        <section class="section about" id="about">
-            <div class="container about-grid">
-                <div class="about-image floating-image">
-                    <img
-                        src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80"
-                        alt="Our creative team">
-                    <span class="badge badge-top">Our Team</span>
-                </div>
-                <div class="about-content">
-                    <p class="eyebrow">ABOUT OUR AGENCY</p>
-                    <h2>We Turn Your Ideas Into Reality</h2>
-                    <p>
-                        Bright Agency combines creativity, technology
-                        and strategy to create meaningful digital
-                        experiences for businesses.
-                    </p>
-                    <ul class="about-list">
-                        <li>Creative and modern designs</li>
-                        <li>Responsive website development</li>
-                        <li>Professional and friendly team</li>
-                    </ul>
-                    <a href="#contact" class="btn">Work With Us</a>
-                </div>
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <h2>Our Projects</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+                         alt="Business website">
+                    <h3>Business Website</h3>
+                    <p>A modern website for a business.</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=600&q=80"
+                         alt="Graphic design">
+                    <h3>Creative Design</h3>
+                    <p>A beautiful design for a creative brand.</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=600&q=80"
+                         alt="Landing page">
+                    <h3>Landing Page</h3>
+                    <p>A clean landing page for an online service.</p>
+                </article>
             </div>
         </section>
-        <!-- SERVICES SECTION -->
-        <section class="section services" id="services">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">WHAT WE DO</p>
-                    <h2>Our Services</h2>
-                    <p>Creative solutions to help your business grow.</p>
-                </div>
-                <div class="services-grid">
-                    <article class="service-card">
-                        <div class="service-icon">🎨</div>
-                        <h3>Graphic Design</h3>
-                        <p>Beautiful visuals, branding and creative designs.</p>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon">💻</div>
-                        <h3>Web Development</h3>
-                        <p>Modern, responsive and user-friendly websites.</p>
-                    </article>
-                    <article class="service-card">
-                        <div class="service-icon">📱</div>
-                        <h3>Digital Marketing</h3>
-                        <p>Digital strategies to reach more customers.</p>
-                    </article>
-                </div>
+        <!-- Team -->
+        <section class="section light" id="team">
+            <h2>Our Team</h2>
+            <p>Meet the creative people behind our work.</p>
+            <div class="cards team-cards">
+                <article class="card team-card">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&h=500&q=80"
+                         alt="Sarah Ahmed">
+                    <h3>Sara Ahmed</h3>
+                    <p>Web Designer</p>
+                </article>
+                <article class="card team-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&h=500&q=80"
+                         alt="Ali Khan">
+                    <h3>Ali Khan</h3>
+                    <p>Web Developer</p>
+                </article>
+                <article class="card team-card">
+                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=500&h=500&q=80"
+                         alt="Ayesha Malik">
+                    <h3>Ayesha Malik</h3>
+                    <p>Graphic Designer</p>
+                </article>
             </div>
         </section>
-        <!-- PROJECTS SECTION -->
-        <section class="section projects" id="projects">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">OUR WORK</p>
-                    <h2>Featured Projects</h2>
-                    <p>A few examples of our creative work.</p>
-                </div>
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-image floating-image">
-                            <img
-                                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
-                                alt="Website design project">
-
-                            <span class="badge badge-top">Web Design</span>
-                        </div>
-                        <div class="project-info">
-                            <h3>Business Website</h3>
-                            <p>Modern website design for a growing business.</p>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-image floating-image">
-                            <img
-                                src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80"
-                                alt="Graphic design project">
-
-                            <span class="badge badge-top">Branding</span>
-                        </div>
-                        <div class="project-info">
-                            <h3>Brand Identity</h3>
-                            <p>A memorable visual identity and brand style.</p>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <div class="project-image floating-image">
-                            <img
-                                src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=80"
-                                alt="Creative digital project">
-
-                            <span class="badge badge-top">Creative</span>
-                        </div>
-                        <div class="project-info">
-                            <h3>Creative Campaign</h3>
-                            <p>Fresh visuals for a digital marketing campaign.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- TEAM SECTION -->
-        <section class="section team" id="team">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">MEET OUR PEOPLE</p>
-                    <h2>Our Creative Team</h2>
-                    <p>Passionate people making great things happen.</p>
-                </div>
-                <div class="team-grid">
-                    <article class="team-card">
-                        <img
-                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
-                            alt="Creative designer">
-                        <h3>Sarah Ahmed</h3>
-                        <p>Graphic Designer</p>
-                    </article>
-                    <article class="team-card">
-                        <img
-                            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80"
-                            alt="Web developer">
-                        <h3>Ali Khan</h3>
-                        <p>Web Developer</p>
-                    </article>
-                    <article class="team-card">
-                        <img
-                            src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=500&q=80"
-                            alt="Marketing specialist">
-                        <h3>Ayesha Malik</h3>
-                        <p>Marketing Specialist</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- TESTIMONIALS SECTION -->
-        <section class="section testimonials" id="testimonials">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">CLIENT FEEDBACK</p>
-                    <h2>What People Say</h2>
-                </div>
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>
-                        "The team understood our ideas and turned them
-                        into a beautiful, professional website."
-                    </p>
-                    <h3>Happy Client</h3>
+        <!-- Testimonials -->
+        <section class="section" id="testimonials">
+            <h2>Client Testimonials</h2>
+            <p>What our happy clients say about us.</p>
+            <div class="cards">
+                <article class="card feedback">
+                    <p>"Amazing design and great service.
+                    I really loved the final website."</p>
+                    <h3>Ahmed</h3>
                     <span>Business Owner</span>
-                </div>
+                </article>
+                <article class="card feedback">
+                    <p>"The team made our website look
+                    professional and beautiful."</p>
+                    <h3>Amna</h3>
+                    <span>Happy Client</span>
+                </article>
+                <article class="card feedback">
+                    <p>"Very creative work and a smooth
+                    experience from start to finish."</p>
+                    <h3>Ayesha</h3>
+                    <span>Small Business Owner</span>
+                </article>
             </div>
         </section>
-        <!-- CONTACT SECTION -->
-        <section class="section contact" id="contact">
-            <div class="container contact-grid">
-                <div class="contact-content">
-                    <p class="eyebrow">GET IN TOUCH</p>
-                    <h2>Let's Create Something Great Together</h2>
-                    <p>
-                        Have a project in mind? Send us a message
-                        and let's discuss your ideas.
-                    </p>
-                    <p><strong>Email:</strong> hello@brightagency.com</p>
-                </div>
-                <form class="contact-form">
-                    <label for="name">Your Name</label>
-                    <input
-                        type="text"id="name" name="name"
-                        placeholder="Enter your name"required>
-                    <label for="email">Your Email</label>
-                    <input
-                        type="email"id="email" name="email"
-                        placeholder="Enter your email" required>
-                    <label for="service">Select Service</label>
-                    <select id="service" name="service" required>
-                        <option value="">Choose a service</option>
-                        <option>Graphic Design</option>
-                        <option>Web Development</option>
-                        <option>Digital Marketing</option>
-                    </select>
-                    <label for="message">Your Message</label>
-                    <textarea
-                        id="message"name="message" rows="4"
-                        placeholder="Write your message"required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
+        <!-- Contact -->
+        <section class="section light" id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a project in mind? Send us a message.</p>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name"
+                       placeholder="Enter your name" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email"
+                       placeholder="Enter your email" required>
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5"
+                          placeholder="Write your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <a href="#home" class="logo">Bright<span>.</span></a>
-            <p>Creative ideas. Bright solutions.</p>
-            <p>© 2026 Bright Agency. All rights reserved.</p>
-        </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Bright Agency. All rights reserved.</p>
     </footer>
 </body>
 </html>
